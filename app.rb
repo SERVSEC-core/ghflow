@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 class FirstSinatraApp < Sinatra::Base
-  get '/'
+  get '/' do
     'App working!'
   end
 end
